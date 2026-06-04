@@ -33,7 +33,7 @@ int main()
         while (temp != 0)
         {
             int digit = temp % 10;
-            sum += pow(digit, digits);
+            sum += (int)pow(digit, digits);
             temp /= 10;
         }
 
